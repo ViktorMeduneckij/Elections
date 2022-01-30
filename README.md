@@ -13,8 +13,8 @@ Implemented with Solidity for smart contracts. Frontend written with React, inte
 * Truffle. For a development environment and testing of a blockchain using EVM.
 * Metamask. For a dummy account with ETH from Ganache.
 
-__Because no one has time to setup another man's project.__
-
 ## Screenshots
+
+__Because no one has time to setup another man's project.__
 
 ![Screenshot](screenshots/app-main.png)
