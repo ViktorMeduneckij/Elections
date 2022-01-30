@@ -38,7 +38,7 @@ const Elections = ({ accountId }) => {
 
   return (
     candidates && (
-      <div className="max-w-screen-lg mx-auto mt-5">
+      <div>
         <table className="w-full">
           <thead>
             <tr className="border-b-2 border-black text-zinc-500">
@@ -58,7 +58,7 @@ const Elections = ({ accountId }) => {
             ))}
           </tbody>
         </table>
-        <VoteForm accountId={accountId} candidates={candidates} />
+        <VoteForm accountId={accountId} candidates={candidates}/>
       </div>
     )
   );
