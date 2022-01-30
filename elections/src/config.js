@@ -1,4 +1,4 @@
-export const ELECTION_ADDRESS = "0xE1a04E0F8E42525a04feb804f1e9b588c8eae779";
+export const ELECTION_ADDRESS = "0x3cB86098dD0571F4A2Ff9d4930dc2511B586882A";
 
 export const ELECTION_ABI = [
   {
@@ -34,7 +34,6 @@ export const ELECTION_ABI = [
     ],
     stateMutability: "view",
     type: "function",
-    constant: true,
   },
   {
     inputs: [],
@@ -48,7 +47,19 @@ export const ELECTION_ABI = [
     ],
     stateMutability: "view",
     type: "function",
-    constant: true,
+  },
+  {
+    inputs: [],
+    name: "userAlreadyVoted",
+    outputs: [
+      {
+        internalType: "bool",
+        name: "",
+        type: "bool",
+      },
+    ],
+    stateMutability: "view",
+    type: "function",
   },
   {
     inputs: [
@@ -68,7 +79,6 @@ export const ELECTION_ABI = [
     ],
     stateMutability: "view",
     type: "function",
-    constant: true,
   },
   {
     inputs: [

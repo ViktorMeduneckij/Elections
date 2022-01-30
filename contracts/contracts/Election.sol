@@ -11,6 +11,7 @@ contract Election {
     mapping(address => bool) public voters;
 
     uint256 public candidatesCount;
+    bool public userAlreadyVoted;
 
     function addCandidate(string memory _name) private {
         candidatesCount++;
